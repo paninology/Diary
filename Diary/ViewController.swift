@@ -11,7 +11,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+//        let vc = WriteViewController()
+//        let navi = UINavigationController(rootViewController: vc)
+//        vc.modalPresentationStyle = .overFullScreen
+//        present(navi, animated: true)
     }
 
 
